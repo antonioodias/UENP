@@ -16,14 +16,15 @@ int main()
 
     if (x > media){
         qtd_acima += 1;
+
     }
     if (y > media){
-        qtd_acima += 1;
-        
+        qtd_acima += 1; 
+         
     }
     if (z > media){
         qtd_acima += 1;
-        
+  
     }
 
     printf("A media sera %d, dos valores fornecidos %d estao acima da media", media, qtd_acima);
