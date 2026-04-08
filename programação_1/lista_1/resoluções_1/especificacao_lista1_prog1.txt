@@ -1,0 +1,310 @@
+﻿1.1 -  Entrada:
+Quais dados devem ser lidos?
+R: Os dados lidos devem ser os dois valores informados pelo usuário.
+
+
+1.2 - Processamento:
+2a. Como realizar a troca dos valores?
+R: Utilizei uma variável auxiliar.
+
+
+2b. Como evitar perder um dos valores durante a troca?
+R: Atribuindo o valor de uma das variáveis na variável auxiliar.
+
+
+1.3. Saída:
+O que deve ser exibido após a troca?
+R: Os valores trocados, X em Y e vice-versa .
+
+
+1.4. Casos de Teste:
+4a. Entrada:
+R: X = 10, Y = 7
+
+
+4b. Saída esperada: 
+R: Y = 10, X = 10
+
+
+2.1. Entrada:
+        Quais dados devem ser lidos?
+R:Apenas um número que vai ser informado pelo usuário.
+
+
+2.2. Processamento:
+2a. Como verificar se o número está dentro do intervalo permitido?
+R:Utilizando apenas um IF podemos analisar se o número informado está dentro do intervalo.
+
+
+2b. Como determinar o antecessor e sucessor?
+R:Apenas somando para o sucessor e subtraindo para o antecessor.
+
+
+2.3. Saıda:
+O que o programa deve exibir em cada caso?
+R: O antecessor e o sucessor do número informado.
+
+
+2.4. Casos de teste:
+4a. Entrada: 
+R: 50
+
+
+4b. Saıda esperada: 
+R: O seu antecessor: 49
+O seu sucessor: 51 
+
+
+3.1. Entrada:
+Quais dados devem ser lidos?
+R:O valor  total de vendas do vendedor.
+ 
+3.2. Processamento:
+2a Como calcular a comissão com base no valor das vendas?
+R: Pode-se calcular a comissão multiplicando o valor total das vendas pela porcentagem.
+
+
+2b. Como aplicar os critérios para determinar a porcentagem correta?
+R:Utilizando os comandos condicionais .
+
+
+3.3. Saída:
+O que deve ser exibido?
+R: Deve ser exibido a porcentagem da comissão que foi aplicada e o valor a mais que irá receber.
+
+
+3.4. Casos de teste:
+4a. Entrada: 
+R:1500
+
+
+4b. Saída esperada: 
+R:Sua comissão foi de 10 por cento você vai receber 150 a mais no seu salário.
+
+
+4.1. Entrada:
+Quais dados devem ser lidos?
+R: O valor total da conta e o número de pessoas que vão pagar.
+
+
+4.2. Processamento:
+2a. Como calcular o valor por pessoa?
+R:Dividindo o valor total a ser pago, pelo número de pessoas.
+
+
+2b. Como aplicar os critérios de classificação?
+R: Utilizando as condicionais.
+
+
+4.3. Saída:
+O que deve ser exibido?
+R:O valor a ser pago por cada um e se ele é considerado baixo, médio ou alto.
+
+
+4. Casos de Teste:
+4a. Entrada: 
+R:total da conta: 125
+número de  pessoas: 4 
+
+
+4b. Sáıda esperada: 
+R: O valor que cada um vai pagar será: R$31.00 e um valor considerado baixo.
+
+
+5.1. Entrada:
+Quais dados devem ser lidos?
+R:Será lido apenas o valor que será inserido na máquina de café.
+
+
+5.2. Processamento:
+2a. Como relacionar o valor inserido com o preço de cada café?
+R: apenas dividindo o valor inserido por 7, que é o preço do café.
+
+
+2b. Como calcular quantos cafés podem ser comprados?
+R:Dividindo o valor inserido por 7, temos a quantidade de café.
+
+
+2c. Como calcular o valor restante?
+R: O valor perdido pode ser calculado pegando o valor inserido e subtrair a 
+quantidade de café multiplicado por 7.
+
+
+5.3. Saída:
+O que deve ser exibido?
+R: A quantidade de café e o valor perdido.
+
+
+4. Casos de Teste:
+4a. Entrada: 
+R: 20
+
+
+4b. Saída esperada:
+R:A quantidade de café será de 2 e o valor perdido será de R$6.
+
+
+6.1. Entrada:
+Quais dados devem ser lidos?
+R: serão os 3 valores.
+
+
+6.2. Processamento:
+2a. Como calcular a média?
+R: Somando os 3 valores primeiro e dividindo por 3.
+
+
+2b. Como comparar cada valor com a média?
+R: Utilizando if e comparando cada valor se é maior que a média calculada.
+
+
+2c. Como contar quantos valores estão  acima da média?
+R:Dentro do if pegamos uma variável e somamos mais 1 se a condição for verdadeira.
+
+
+6.3. Saída:
+O que deve ser exibido?
+R:A média e a quantidade  de valor que está acima dela.
+
+
+6.4. Casos de Teste:
+4a. Entrada: 
+R:4 , 2, 6
+
+
+4b. Saída esperada:
+R: A média será 4, dos valores fornecidos 1 estão acima da média.
+
+
+7.1. Entrada:
+Quais dados devem ser lidos?
+R: Sera lidos o primeiro e o segundo valor escolhido pelo usuário e a opção da operação que ele deseja fazer.
+
+
+7.2. Processamento/Regras:
+2a. Como identificar a operação escolhida?
+R:Utilizando o switch .
+
+
+2b. Como executar cada operação?
+R:Utilizando o case.
+
+
+2c. Como tratar: opção inválida e divisão por zero?
+R:a opção inválida pode ser tratado com o default e a divisão por zero com um simples if, já resolve o problema.
+
+
+7.3. Saída:
+O que o programa deve exibir em cada caso?
+R:Na primeira opção a média aritmética entre os números,
+na segunda opção a diferença entre o maior e menor número,
+na terceira opção produto entre os números
+e na quarta opção divisão entre os números.
+
+
+7.4. Casos de Teste:
+4a. Entrada: 
+R:20 e 30 e opção 1
+
+
+4b. Saída esperada:
+R:25
+
+
+8.1. Entrada:
+Quais dados devem ser lidos?
+R: Nota de produtividade e de qualidade.
+
+
+8.2. Processamento/Regras:
+2a. Como analisar os valores de produtividade e qualidade?
+R: utilizando if e else if e else .
+
+
+2b. Como aplicar os critérios para classificar o desempenho?
+R: ambos ≥ 7 → “bom”
+apenas um ≥ 7 → “regular”
+nenhum ≥ 7 → “ruim”
+
+
+8.3. Saída:
+O que deve ser exibido?
+R: O desempenho do funcionário.
+.
+8.4. Casos de Teste:
+4a. Entrada: 
+R: Produtividade = 7
+Qualidade = 7
+
+
+4b. Saída esperada: 
+R: O desempenho é bom.
+
+
+9.1. Entrada:
+Quais dados devem ser lidos?
+R:Pegamos o valor inicial e o valor final.
+
+
+9.2. Processamento/Regras:
+2a. Como calcular a variação entre os preços?
+R:Fazendo uma simples subtração.
+
+
+2b. Como calcular o percentual de variação em relação ao preço inicial?
+R:variação igual a 0% → “sem variação”
+ variação positiva → “aumento”
+ variação negativa → “redução”
+
+
+2c. Como identificar se houve aumento, redução ou nenhuma variação?
+R:Se o resultado da variação for positivo, houve redução, se der negativo houve aumento, se não houve nada, não teve variação.
+
+
+9.3. Saída:
+O que deve ser exibido?
+R:Se houve aumento, redução ou nenhuma variação.
+
+
+9.4. Casos de Teste:
+4a. Entrada: ?
+R:inicial: 20
+final: 25
+
+
+4b. Saída esperada: ?
+R:Houve aumento.
+
+
+10.1. Entrada:
+Quais dados devem ser lidos?
+R:Os 3 coeficientes.
+
+
+10.2. Processamento/Regras:
+2a. Como verificar se a equação é de segundo grau?
+R:Se o A: for igual a 0, não é equação do segundo grau.
+
+
+2b. Como calcular o valor de delta?
+R:b^2 - 4 * a * c
+
+
+2c. Como determinar se existem raízes reais?
+R:Se o meu Delta for menor do que zero, não existe raiz real.
+        
+2d. Como calcular as raízes da equação?
+R:Utilizando a fórmula de bhaskara .
+
+
+10.3. Saída:
+ O que o programa deve exibir em cada caso?
+R:Se A  = 0, não é equação do segundo grau
+se delta for menor que zero, não existe raízes reais
+e se der tudo certo exibe as duas raízes.
+
+10.4. Casos de Teste:
+4a. Entrada: ?
+R: a = 1, b = -7, c = 10
+4b. Saída esperada: ?
+As raízes da equação será: 5.00 e 2.00.
