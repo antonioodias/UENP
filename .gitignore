@@ -14,5 +14,5 @@ bin/
 *.log
 *.tmp
 
-# Configurações do VS Code (opcional)
+# Configurações do VS Code
 .vscode/
