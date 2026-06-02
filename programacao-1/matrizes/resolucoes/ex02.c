@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 void linha(){
-    printf("\n=-=-=-=-=-=\n");
+    printf("=-=-=-=-=-=-=");
+    printf("\n");
 }
 
 void leMatriz(int linha, int coluna, int mat[linha][coluna]){
@@ -38,6 +39,7 @@ void acimaPrincipal(int linha, int coluna, int mat[linha][coluna]){
             
         }
     }
+    printf("\n");
     
 }
 
@@ -61,8 +63,10 @@ int main() {
     
     int tam = 0, resultado = 0;
 
+    linha();
     printf("Defina o tamanho da sua matriz quadrada: ");
     scanf(" %d", &tam);
+    linha();
 
     int matriz[tam][tam];
 
@@ -75,8 +79,8 @@ int main() {
     
     resultado = somaAcimaPrincipal(tam, tam, matriz);
     printf("A soma dos numeros acima da diagonal principal: %d", resultado);
-    linha();
+
     
-    
+
     return 0;
 }

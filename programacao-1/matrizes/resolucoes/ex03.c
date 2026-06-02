@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 void linha(){
-    printf("\n=-=-=-=-=-=\n");
+    printf("=-=-=-=-=-=-=-=-=-=");
+    printf("\n");
 }
 
 
@@ -66,7 +67,6 @@ int main(){
     linha();
     resultado = somaElementos(tam,matriz);
     printf("\nA soma dos elementos fora da diagonal principal e secundaria: %d", resultado);
-    linha();
 
     return 0;
 }

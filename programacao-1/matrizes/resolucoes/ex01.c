@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 void linha(){
-    printf("=-=-=-=-=-=\n");
+    printf("=-=-=-=-=-=-=");
+    printf("\n");
 }
 
 void leMatriz(int linha, int coluna, int mat[linha][coluna]){
@@ -44,8 +45,10 @@ void acimaPrincipal(int linha, int coluna, int mat[linha][coluna]){
 int main() {
     
     int tam = 0;
+    linha();
     printf("Defina o tamanho da sua matriz quadrada: ");
     scanf(" %d", &tam);
+    linha();
 
     int matriz[tam][tam];
     
