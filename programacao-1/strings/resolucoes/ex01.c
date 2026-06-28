@@ -3,6 +3,18 @@
 
 #define TAM 100
 
+void inverteString(char str[], char invstr[]){
+
+    int  j = 0;
+    for(int i = strlen(str) - 2; i >= 0; i--){
+        invstr[j] = str[i];
+        j++;
+    }
+    invstr[j] = '\0';
+    
+
+}
+
 int main()
 {
     char string[TAM] = {0};
@@ -10,13 +22,8 @@ int main()
 
     fgets(string, sizeof(string), stdin);
 
-    int  j = 0;
-    for(int i = strlen(string) - 2; i >= 0; i--){
-        stringInvertida[j] = string[i];
-        j++;
-    }
-    
-    stringInvertida[j] = '\0';
+    inverteString(string, stringInvertida);
+
     fputs(stringInvertida, stdout);
 
     return 0;
