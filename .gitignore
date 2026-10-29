@@ -1,18 +1,9 @@
-# Ignorar executáveis
 *.exe
-
-# Arquivos objeto (C)
 *.o
 *.obj
-
-# Pastas de build/output
 output/
 build/
 bin/
-
-# Arquivos temporários
 *.log
 *.tmp
-
-# Configurações do VS Code
 .vscode/
